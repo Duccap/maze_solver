@@ -1,2 +1,2 @@
-# sudoku_solver
-an program solve sudoku using backtracking
+# maze_solving
+an program solve a maze using backtracking, there are just go down and turn left solely.
