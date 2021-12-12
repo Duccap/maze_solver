@@ -31,7 +31,7 @@ def solvemaze(maze,sol,pr,pc):
   solright=solvemaze(maze,sol,pr,pc+1)
   if solright is not None:
     return solright
- #if right nhucac then try down 
+ #if right was wrong then try down 
   sol.pop()
   sol.append("d")
   soldown=solvemaze(maze,sol,pr+1,pc)
